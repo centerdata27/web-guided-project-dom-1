@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <script src="index.js" defer></script>
-  <title>DOM I</title>
-</head>
-
-<body>
-  <header>
-    <div class="logo-container">
-      <img src="" alt="Bloomtech logo">
-      <h1 class="heading logo" id="logoTitle" data-foo="bar">Bloomtech Cat</h1>
-    </div>
-    <nav id="mainNav" data-artist="lady gaga">
-      <a class="menu-item" href="#">Home</a>
-      <a class="menu-item" href="#">About</a>
-      <a class="menu-item" href="#">Contact</a>
-    </nav>
-  </header>
-  <div class="card-group">
-    <div class="card">
-      <img class="card-img-top"
-        src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
-        alt="majestic supreme ruler">
-      <div class="card-body">
-        <h2 class="card-title">Card Title</h2>
-        <h3 class="card-subtitle">Card Subtitle</h3>
-        <p class="card-text">Sweet beast tickle my belly at your own peril i will pester for food when you're in the
-          kitchen even if it's salad spend six hours per day washing</p>
-        <a href="https://unsplash.com/search/photos/cats" class="card-link">More Pics</a>
-        <a href="http://www.catipsum.com/index.php#.XUeUqlBMGL8" class="card-link">Cat Ipsum</a>
+  <!-- telling the browser its in english-->
+<!---------------------------------------------------------------------------------------------------------------------------->
+  <head>
+    <!-- information for thebrowser Metadata is not displayed. Metadata typically define the document title, character set, styles, scripts, and other meta information-->
+    <meta charset="UTF-8" />
+    <!-- tellling the browser how to interprete thes numbers into the boweser-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- refrencing to the css style sheeet page included here to your left -->
+    <script src="index.js" defer></script>
+    <!-- refrencing to the JavaScript style sheeet page included here to your left -->
+    <title>DOM I</title>
+    <!-- refrencing to the title of the page -->
+  </head>
+<!---------------------------------------------------------------------------------------------------------------------------->
+  <body>
+    <!------------------------------------------- header --------------------------------------------------------------------------------->
+    <header>
+      <div class="logo-container">
+        <img src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/408/original/Bloom_Institute_of_Technology_logo.png" alt="Bloomtech_logo" />
+        <h1 class="heading-logo" id="logoTitle" data-foo="bar">
+          Bloomtech Cat
+        </h1>
+      </div>
+      <!----------------------------------------nav------------------------------------------------------------------------------------>
+      <nav id="mainNav" data-artist="lady gaga">
+        <a class="menu-item" href="#">Home</a>
+        <a class="menu-item" href="#">About</a>
+        <a class="menu-item" href="#">Contact</a>
+      </nav>
+      <!-----------------------------------------nav----------------------------------------------------------------------------------->
+    </header>
+    <!------------------------------------------- header ---------------------------------------------------------------------------------> 
+    <div class="card-group">
+      <div class="card">
+        <img
+          class="card-img-top"
+          src="https://images.unsplash.com/photo-1519052537078-e6302a4968d4?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ"
+          alt="majestic supreme ruler"
+        />
+        <div class="card-body">
+          <h2 class="card-title">Card Title</h2>
+          <h3 class="card-subtitle">Card Subtitle</h3>
+          <p class="card-text">
+            Sweet beast tickle my belly at your own peril i will pester for food
+            when you're in the kitchen even if it's salad spend six hours per
+            day washing
+          </p>
+          <a href="https://unsplash.com/search/photos/cats" class="card-link0"
+            >More Pics</a
+          >
+          <a
+            href="http://www.catipsum.com/index.php#.XUeUqlBMGL8"
+            class="card-link1"
+            >Cat Ipsum</a
+          >
+        </div>
       </div>
     </div>
-  </div>
-  <footer>
-    <h4 class="contact-heading"></h4>
-    <p class="address"></p>
-    <p class="phone"></p>
-    <p class="email"></p>
-  </footer>
-</body>
+   <!---------------------------------------------------------------------------------------------------------------------------->
 
+    <footer>
+      <h4 class="contact-heading"></h4>
+      <p class="address"></p>
+      <p class="phone"></p>
+      <p class="email"></p>
+    </footer>
+ <!---------------------------------------------------------------------------------------------------------------------------->
+
+  </body>
 </html>
